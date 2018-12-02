@@ -625,4 +625,4 @@ module.exports={};
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=require("./components/App");function u(e){return e&&e.__esModule?e:{default:e}}require("./styles/main.scss"),r.default.render(e.default.createElement(t.App,null),document.getElementById("app"));
 },{"react":"1n8/","react-dom":"NKHc","./components/App":"L+lk","./styles/main.scss":"L/DU"}]},{},["Focm"], null)
-//# sourceMappingURL=https://malyfko.github.io/HouseControlCenter-web/index.map
+//# sourceMappingURL=/HouseControlCenter-web/index.map
