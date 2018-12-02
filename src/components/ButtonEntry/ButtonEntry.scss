@@ -1,0 +1,15 @@
+@import "src/styles/variables";
+
+.buttonEntry {
+  background-color: $blue;
+  color: $white;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+
+  &:active {
+    background-color: darken($blue, 5%);
+    padding: 16px 14px 14px 16px;
+  }
+}
