@@ -1,0 +1,23 @@
+.buttonEntry--16zp {
+  background-color: #196aff;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none; }
+  .buttonEntry--16zp:active {
+    background-color: #005aff;
+    padding: 16px 14px 14px 16px; }
+.mainContainer--Aq4W {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+html, body {
+  padding: 0;
+  margin: 0; }
+
+#app {
+  margin: 10%;
+  max-width: 1600px; }
