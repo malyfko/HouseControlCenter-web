@@ -48093,7 +48093,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _ButtonEntry = _interopRequireDefault(require("./ButtonEntry.scss"));
 
-var _jsxFileName = "/Users/tetiana/tblab-app/src/components/ButtonEntry/ButtonEntry.jsx",
+var _jsxFileName = "/Users/tetiana/HouseControlCenter-web/src/components/ButtonEntry/ButtonEntry.jsx",
     _this = void 0;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -48153,7 +48153,7 @@ var _ButtonEntry = require("../ButtonEntry");
 
 var _Main = _interopRequireDefault(require("./Main.scss"));
 
-var _jsxFileName = "/Users/tetiana/tblab-app/src/components/Main/Main.jsx";
+var _jsxFileName = "/Users/tetiana/HouseControlCenter-web/src/components/Main/Main.jsx";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -48255,7 +48255,7 @@ var _Main = require("../Main");
 
 var _consts = require("../../consts");
 
-var _jsxFileName = "/Users/tetiana/tblab-app/src/components/App/App.jsx",
+var _jsxFileName = "/Users/tetiana/HouseControlCenter-web/src/components/App/App.jsx",
     _this = void 0;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -48340,7 +48340,7 @@ var _App = require("./components/App");
 
 require("./styles/main.scss");
 
-var _jsxFileName = "/Users/tetiana/tblab-app/src/index.js";
+var _jsxFileName = "/Users/tetiana/HouseControlCenter-web/src/index.js";
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -48378,7 +48378,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50327" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55471" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
